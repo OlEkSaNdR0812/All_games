@@ -1,38 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html >
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ItGid.info - простой слайдер</title>
-    <link rel="stylesheet" href="./style.css">
+    <title>All games</title>
+    <link rel="stylesheet" href="style/style.css">
 </head>
-
 <body>
+<h1>Ласкаво просимо, оберіть гру</h1>
     <div class="container">
-        <h1>ItGid.info - простой слайдер</h1>
-
         <div class="slider">
             <div class="slider-line">
-                <img src="./images/elephant.png" alt="">
-                <img src="./images/gorilla.png" alt="">
-                <img src="./images/home.png" alt="">
-                <img src="./images/ice_cream.png" alt="">
+                <img id="first_link" src="./images/magi_ball.png" alt="">
+                <img id="sekond_link" src="./images/score.png" alt="">
+                <img id="third_link" src="./images/21_score.png" alt="">
+                <img id="fourth_link" src="./images/one_hand.png" alt="">
             </div>
         </div>
+		<h2>Натисніть на картинку щоб перейти</h2>
         <button class="slider-prev">Prev</button>
-        <button class="slider-next">Next</button>
-
-        <div class="courses">
-            <ul>
-                <li><a href="https://itgid.info/course/javascript-2">JavaScript 2.0</a></li>
-                <li><a href="https://itgid.info/course/html">HTML для JS разработчиков</a></li>
-                <li><a href="https://itgid.info/course/object-js">Объектно Ориентированный JavaScript</a></li>
-                <li><a href="https://itgid.info/course/reactjs">ReactJS</a></li>
-            </ul>
-        </div>
+        <button class="slider-next">Next</button>   
     </div>
-    <script src="script.js"></script>
+    <script src="jquery/jquery-3.6.1.js"></script>
+	<script src="script/script.js"></script>
+	
 </body>
 
 </html>
